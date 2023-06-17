@@ -14,6 +14,7 @@ header
     background-color:rgb(36, 80, 150) ;
     height: 70px;
     width: 100%;
+    margin-top: -10px;
 }
 .eresultats
 {
@@ -349,7 +350,7 @@ nav ul li a:hover
     align-items: center;
     align-self: flex-end;
     color: white;
-    font-size: 13px;
+    font-size: 9px;
     font-weight: bold;
     margin:-20px -10px 0px 0px;
     background-color: rgba(123, 146, 168, 0.8) ;
@@ -452,6 +453,7 @@ footer .container-footer .lastul li
         flex-direction: column;
         justify-content: space-evenly;
         padding: 20px 0px;
+        top : 0px;
     }
     nav
     {
@@ -483,5 +485,14 @@ footer .container-footer .lastul li
 @media (max-width : 500px) {
     .examens .examens-cadre , .cadre-resultats{
         margin: 25px auto;
+    }
+    .examens .examens-cadre .designation p, .examens .cadre-resultats .apresbientot .designation p {
+        font-size: 13px;
+    }
+    .eresultats {
+        height: 50%;
+    }
+    .logo {
+        height: 50%;
     }
 }
