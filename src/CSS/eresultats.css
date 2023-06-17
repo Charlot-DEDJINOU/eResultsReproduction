@@ -154,7 +154,7 @@ nav ul li a:hover , select:hover
 .bienvenue
 {
     width: 100%;
-    height: 510px;
+    height: 75vh;
     background-image: url('../imagehtml/back.jpg');
     background-size: cover;
     display: flex;
